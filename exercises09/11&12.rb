@@ -36,3 +36,13 @@ end
 
 # 4. p contacts
 p contacts
+
+# Exercise 12
+# Using hash created above, demonstrate how to access Joe's email and Sally's phone number
+
+p "Joe's email is #{contacts["Joe Smith"][:email]}."
+p "Sally's phone number is #{contacts["Sally Johnson"][:phone]}"
+
+# Challenge: Exercise 16
+# programmatically loop or iterate over the contacts hash, and populate the associated data from the contact_data array.
+# Do so for 1 entry in the contacts hash, or else make it work with multiple entries in the contacts hash
